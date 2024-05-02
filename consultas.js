@@ -13,8 +13,6 @@ const getJoyasFilters = async ({ precio_max, precio_min, categoria, metal }) =>{
     let filtros = [];
     const values = []; 
         const addJoyas = (campo, comparador, valor) =>{
-            // values.push(valor);
-            // const { length } = filtros;
           
             filtros.push(`${campo} ${comparador} ${valor}`)
         }
